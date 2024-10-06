@@ -1,6 +1,8 @@
 ## NURBS Surfaces
 
-**NURBS (Non-Uniform Rational B-Splines)** surfaces are a powerful mathematical representation used for modeling complex shapes in computer graphics, CAD (Computer-Aided Design), and 3D modeling. NURBS surfaces are defined by a grid of control points, allowing for precise control over the surface geometry and enabling the representation of both simple and intricate shapes.
+## **Non-uniform Rational B-spline Curve**
+
+Def: surfaces are a powerful mathematical representation used for modeling complex shapes in computer graphics, CAD (Computer-Aided Design), and 3D modeling. NURBS surfaces are defined by a grid of control points, allowing for precise control over the surface geometry and enabling the representation of both simple and intricate shapes.
 
 
 ### Key Features:
