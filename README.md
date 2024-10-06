@@ -39,8 +39,21 @@ To compile and run the project, follow these steps:
 
 ### User Controls
 
-Initial View: Displays the surface along with the control polygon.
-Surface with Tangents and Normals: Press Z to view the surface along with tangent vectors in the 𝑢 and 𝑣 directions, as well as the normal vectors.
-Curvature Visualization: Press E to attempt to visualize the curvature (note: results inaccurate).
-Move Vectors: Use U, u, V, and v to move the tangent and normal vectors along the surface.
-Return to Initial View: Press A to revert to the first view.
+- **Initial View**: Displays the surface along with the control polygon.
+- **Surface with Tangents and Normals**: Press Z to view the surface along with tangent vectors in the 𝑢 and 𝑣 directions, as well as the normal vectors.
+- **Curvature Visualization**: Press E to attempt to visualize the curvature (note: results inaccurate).
+- **Move Vectors**: Use U, u, V, and v to move the tangent and normal vectors along the surface.
+- Return to Initial View: Press A to revert to the first view.
+
+### PrOOO!blm, Feel free to fix it:
+
+about Gaussian curvature; I tried to implement it using the first and second fundamentals.
+I got bad results, I can't figure out why.
+to calcualte gaussian curvature we need 1st and 2nd derivative in both u & v directions and mixed derivative dudv (source: wikipédia)
+we also need the mixed derivative dudv which i suspect i did it wrong... 
+you can find it in line 256 ( arma::vec computeMixedDerivativeFiniteDifference(float u, float v) )
+- you can remove comments in lines 389, 390 to see values of curvature at u,v.
+
+
+
+
