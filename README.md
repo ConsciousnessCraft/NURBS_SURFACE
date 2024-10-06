@@ -34,8 +34,8 @@ To compile and run the project, follow these steps:
 ### Build the Project
 
 1. Open your terminal and navigate to the project directory.
-2. Run the following command to compile the project: make
-3. After the build process completes, execute the following command to run the application: ./main
+2. Run the following command to compile the project:  **make**
+3. After the build process completes, execute the following command to run the application: **./main**
 
 ### User Controls
 
