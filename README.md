@@ -56,6 +56,8 @@ we also need the mixed derivative dudv which i suspect i did it wrong...
 you can find it in line 256 ( arma::vec computeMixedDerivativeFiniteDifference(float u, float v) )
 - you can remove comments in lines 389, 390 to see values of curvature at u,v.
 
+![Screenshot 2024-10-07 102530](https://github.com/user-attachments/assets/b7588a47-3073-429e-8faf-d3cc841fad6b)
+![Screenshot 2024-10-07 102416](https://github.com/user-attachments/assets/2f75fbc5-2fc1-4803-8cb1-369ae22dc09b)
 
 
 
